@@ -19,3 +19,5 @@ vim.opt.updatetime = 50 --fast update time
 vim.opt.colorcolumn = "80" --color column on the right indicating inputted number of characters
 
 vim.g.mapleader = " " --same leader key just here with the other sets
+
+vim.lsp.set_log_level("off")
